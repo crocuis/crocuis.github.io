@@ -1,0 +1,177 @@
+/*
+
+XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
+
+*/
+
+.highlight {
+  display: block;
+  overflow-x: auto;
+  /* padding: 0.5em; */
+  background: #fff;
+  color: black;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight figcaption {
+  margin: -10px -10px 5px -10px;
+  padding: 0 10px 0 10px;
+  font-size: .9em;
+  color: #999;
+  background-color: #efefef;
+}
+
+.highlight figcaption:after,
+.highlight figcaption:before {
+  content: "";
+  display: table;
+}
+
+.highlight figcaption a {
+  float: right;
+}
+
+.comment,
+.template_comment,
+.javadoc {
+  color: #006a00;
+}
+
+.keyword,
+.literal,
+.nginx .title {
+  color: #aa0d91;
+}
+.method,
+.list .title,
+.tag .title,
+.setting .value,
+.winutils,
+.tex .command,
+.http .title,
+.request,
+.status {
+  color: #008;
+}
+
+.envvar,
+.tex .special {
+  color: #660;
+}
+
+.string {
+  color: #c41a16;
+}
+.tag .value,
+.cdata,
+.filter .argument,
+.attr_selector,
+.apache .cbracket,
+.date,
+.regexp {
+  color: #080;
+}
+
+.sub .identifier,
+.pi,
+.tag,
+.tag .keyword,
+.decorator,
+.ini .title,
+.shebang,
+.prompt,
+.hexcolor,
+.rules .value,
+.symbol,
+.symbol .string,
+.number,
+.css .function,
+.function .title,
+.coffeescript .attribute {
+  color: #1c00cf;
+}
+
+.class .title,
+.smalltalk .class,
+.javadoctag,
+.yardoctag,
+.phpdoc,
+.dartdoc,
+.type,
+.typename,
+.tag .attribute,
+.doctype,
+.class .id,
+.built_in,
+.setting,
+.params,
+.clojure .attribute {
+  color: #5c2699;
+}
+
+.variable {
+ color: #3f6e74;
+}
+.css .tag,
+.rules .property,
+.pseudo,
+.subst {
+  color: #000;
+}
+
+.css .class,
+.css .id {
+  color: #9b703f;
+}
+
+.value .important {
+  color: #ff7700;
+  font-weight: bold;
+}
+
+.rules .keyword {
+  color: #c5af75;
+}
+
+.annotation,
+.apache .sqbracket,
+.nginx .built_in {
+  color: #9b859d;
+}
+
+.preprocessor,
+.preprocessor *,
+.pragma {
+  color: #643820;
+}
+
+.tex .formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.diff .header,
+.chunk {
+  color: #808080;
+  font-weight: bold;
+}
+
+.diff .change {
+  background-color: #bccff9;
+}
+
+.addition {
+  background-color: #baeeba;
+}
+
+.deletion {
+  background-color: #ffc8bd;
+}
+
+.comment .yardoctag {
+  font-weight: bold;
+}
+
+.method .id {
+  color: #000;
+}
